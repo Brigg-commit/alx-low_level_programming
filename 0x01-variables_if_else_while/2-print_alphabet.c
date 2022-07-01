@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/** main - prints the alphabet in lowercase
- * followed by a new line.
- *Return: returns zero if program exits well.
+/**
+* main - prints is posetive, negative
+* or zero
+*Return: returns zero if program exits well.
  */
 int main(void)
 {
