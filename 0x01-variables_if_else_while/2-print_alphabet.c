@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/** main - prints the alphabet in lowercase, followed* by a new line.
-*Return: returns zero if program exits well.
+/** main - prints the alphabet in lowercase
+ * followed by a new line.
+ *Return: returns zero if program exits well.
  */
 int main(void)
 {
@@ -14,3 +15,4 @@ c++;
 putchar('\n');
 return (0);
 }
+aaaaa
