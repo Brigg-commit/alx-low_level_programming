@@ -1,23 +1,37 @@
 #include <stdio.h>
 
 /**
-* main - prints is posetive, negative
-* or zero
-*Return: returns zero if program exits well.
+ * main - Prints numbers between 00 to 89.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int c = 0;
-while (c <= 9)
-{
-putchar(48 + c);
-if (c != 9)
-{
-putchar(',');
-putchar(' ');
-}
-c++;
-}
-putchar('\n');
-return (0);
+	int i, e;
+
+	i = 48;
+	e = 48;
+
+	while (e < 58)
+	{
+		i = 48;
+		while (i < 58)
+		{
+			if (e != i && e < i)
+			{
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}
+		e++;
+	}
+	putchar('\n');
+	return (0);
 }
