@@ -36,4 +36,6 @@ int main(void)
 	      password[index] -= diff_half2;
 	      break
 		}
+	  return (0);
+	  printf("%s", password);
 }
