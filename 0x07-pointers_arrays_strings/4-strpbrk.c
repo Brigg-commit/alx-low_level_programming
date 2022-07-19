@@ -21,12 +21,9 @@ char *_strpbrk(char *s, char *accept)
 				return (s);
 			}
 
-			
 			j++; /*add j+1*/
 		}
 
 		s++; /*add s+1*/
 	}
 	return (0);
-
-}
