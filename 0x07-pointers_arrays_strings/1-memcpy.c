@@ -18,8 +18,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		*(dest + i) = *(src + i); /*add 1 position dest and src*/
 		i++;
 
-	
-	} /*END WHILE*/
+       	} /*END WHILE*/
 
 
 	return (dest);
