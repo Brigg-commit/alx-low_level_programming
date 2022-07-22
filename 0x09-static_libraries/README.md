@@ -5,12 +5,13 @@ In this project, I learned what static libraries are and practiced creating and 
 <li>tests: Folder of test files. Provided by Holberton School.</li>
 <ul>
 <br/>
-# Tasks<br/>
+# Tasks <br/>
 <ul>
 <li><strong> 0. A library is not a luxury but one of the necessities of life</strong></li>
 </ul></br>
 libmy.a: C Static library containing all the functions listed below:</br>
-int _putchar(char c);
+<ul>
+<li> int _putchar(char c); </li>
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
@@ -30,10 +31,11 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+</ul>
 </br>
 <cite> main.h</cite>x: Header file containing the prototypes of all functions included in libholberton.a.</br>
 <ol>
 <li><strong>Without libraries what have we? We have no past and no future</strong></li>
 </ol>
 <br/>
-create_static_lib.sh: Bash script that creates a static library called liball.a from all the .c files in the current directory.
+<a href = ""> create_static_lib.sh </a>: Bash script that creates a static library called liball.a from all the .c files in the current directory.
