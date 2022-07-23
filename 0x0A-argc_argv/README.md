@@ -19,17 +19,16 @@ ln this project, arguments are passed to C functions with argc and argv, __attri
 </ul>
 <li><strong> The best argument against democracy is a five-minute conversation with the average voter </li>
 <br/>
+<a href ="2-args.c"> 2-args.c </a> C program that prints all arguments it receives, including the first one.
 <ul>
-<li><a href ="2-args.c"> 2-args.c </a> C program that prints all arguments it receives, including the first one.
-</li>
-</ul><br/>
-Arguments are printed one per line, ending with a new line.
+<li>Arguments are printed one per line, ending with a new line.</li>
+</ul>
 <br/>
 <li><strong> Neither irony nor sarcasm is argument </strong></li>
 </ol>
 <br/>
+<a href ="3-mul.c"> 3-mul.c </a> C program that multiplies two numbers and prints the result, followed by a new line.
 <ul>
-<li><a href ="3-mul.c"> 3-mul.c </a> C program that multiplies two numbers and prints the result, followed by a new line.</li>
 <li> The program assumes the two numbers and result of the multiplication can be stored in an int.
 </li>
 <li> If the program does not receive two arguments, it prints Error followed by a new line and returns 1.
