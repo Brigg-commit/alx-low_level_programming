@@ -5,11 +5,11 @@ In this project, I learned what static libraries are and practiced creating and 
 <li><a href = ""> tests </a>: Folder of test files. Provided by Holberton School.</li>
 </li>
 <br/>
-# <h3><strong> Tasks </strong> </h3> <hr>
+<h3><strong> Tasks </strong> </h3> <hr>
 <ul>
 <li><strong> 0. A library is not a luxury but one of the necessities of life</strong></li>
 </ul></br>
-<a href = "libmy.a.html"> libmy.a </a>: C Static library containing all the functions listed below:</br>
+<a href = "libmy.a"> libmy.a </a>: C Static library containing all the functions listed below:</br>
 <ul>
 <li> int _putchar(char c); </li>
 <li> int _islower(int c); </li>
