@@ -5,11 +5,11 @@ In this project, I learned what static libraries are and practiced creating and 
 <li><a href = ""> tests </a>: Folder of test files. Provided by Holberton School.</li>
 </li>
 <br/>
-# Tasks <hr>
+# <h3><strong> Tasks </strong> </h3> <hr>
 <ul>
 <li><strong> 0. A library is not a luxury but one of the necessities of life</strong></li>
 </ul></br>
-<a href = ""> libmy.a </a>: C Static library containing all the functions listed below:</br>
+<a href = "libmy.a.html"> libmy.a </a>: C Static library containing all the functions listed below:</br>
 <ul>
 <li> int _putchar(char c); </li>
 <li> int _islower(int c); </li>
@@ -33,9 +33,9 @@ In this project, I learned what static libraries are and practiced creating and 
 <li> char *_strstr(char *haystack, char *needle); </li>
 </ul>
 </br>
-<a href = ""> main.h</a>: Header file containing the prototypes of all functions included in libholberton.a.</br>
+<a href = "main.h"> main.h </a>: Header file containing the prototypes of all functions included in libholberton.a.</br>
 <ol>
 <li><strong>Without libraries what have we? We have no past and no future</strong></li>
 </ol>
 <br/>
-<a href = ""> create_static_lib.sh </a>: Bash script that creates a static library called liball.a from all the .c files in the current directory.
+<a href = "create_static_lib.sh"> create_static_lib.sh </a>: Bash script that creates a static library called liball.a from all the .c files in the current directory.
