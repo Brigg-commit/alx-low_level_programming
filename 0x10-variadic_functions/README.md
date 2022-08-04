@@ -1,8 +1,8 @@
 # C - Variadic functions
 # Test ✔️
-<a href ="tests">tests : Folder of test files. Provided by Holberton School.
+<a href ="tests">tests</a> : Folder of test files. Provided by Holberton School.
 # Header File 📁
-<a href ="variadic_function.h"> variadic_functions.h : Header file containing definitions and prototypes for all types and functions written in the project.
+<a href ="variadic_function.h"> variadic_functions.h</a>: Header file containing definitions and prototypes for all types and functions written in the project.
 
       <table>
          <tr>
@@ -33,6 +33,6 @@ void (*print)(va_list arg)
 	  /tr>
 	  <tr>
 	  <td>typedef printer_t</td>
-	  <td>struct printer</td 
+	  <td>struct printer</td>
          </tr>
       </table>
