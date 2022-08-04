@@ -28,11 +28,10 @@
 	  <tr>
 	  <td>struct printer</td>
 	  <td>char *symbol
-void (*print)(va_list arg)
-          </td>
-	  /tr>
+void (*print)(va_list arg)</td>
+          </tr>
 	  <tr>
 	  <td>typedef printer_t</td>
 	  <td>struct printer</td>
          </tr>
-      </table>
+     </table>
