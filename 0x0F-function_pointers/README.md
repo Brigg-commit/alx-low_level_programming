@@ -15,7 +15,6 @@ All of the following files are programs written in C:
             <td>Prints a name</td>
          </tr>
          <tr>
-<<<<<<< HEAD
             <td>1-array_iterator.c</td>
             <td>Executes a function given as a parameter on each element of an array</td>
          </tr>
@@ -39,8 +38,7 @@ All of the following files are programs written in C:
 	     <td>100-main_opcodes.c</td>
 	     <td>Prints the opcodes of its own main function</td>
 	     </tr>
-=======
-</tr>
+
          <tr>
             <td>1-array_iterator.c</td>
             <td>Executes a function given as a parame\
@@ -69,4 +67,3 @@ inter of the arithmetic functions</td>
              <td>Prints the opcodes of its own main f\
 unction</td>
              </tr>
->>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
