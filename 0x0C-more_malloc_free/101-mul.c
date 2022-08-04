@@ -26,7 +26,11 @@ return (len);
 
 /**
  * create_xarray - Creates an array of chars and initializes it with
+<<<<<<< HEAD
  * the character 'x'. Adds a terminating null byte.
+=======
+ * the character x. Adds a terminating null byte.
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
  * @size: The size of the array to be initialized.
  *
  * Description: If there is insufficient space, the
@@ -44,9 +48,15 @@ if (array == NULL)
 exit(98);
 
 for (index = 0; index < (size - 1); index++)
+<<<<<<< HEAD
 array[index] = 'x';
 
 array[index] = '\0';
+=======
+array[index] = x;
+
+array[index] = 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 
 return (array);
 }
@@ -60,7 +70,11 @@ return (array);
  */
 char *iterate_zeroes(char *str)
 {
+<<<<<<< HEAD
 while (*str && *str == '0')
+=======
+while (*str && *str == 0)
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 str++;
 
 return (str);
@@ -76,7 +90,11 @@ return (str);
  */
 int get_digit(char c)
 {
+<<<<<<< HEAD
 int digit = c - '0';
+=======
+int digit = c - 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 
 if (digit < 0 || digit > 9)
 {
@@ -106,7 +124,11 @@ mult += mult_len;
 
 while (*prod)
 {
+<<<<<<< HEAD
 *prod = 'x';
+=======
+*prod = x;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 prod++;
 }
 
@@ -114,26 +136,44 @@ prod--;
 
 while (zeroes--)
 {
+<<<<<<< HEAD
 *prod = '0';
+=======
+*prod = 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 prod--;
 }
 
 for (; mult_len >= 0; mult_len--, mult--, prod--)
 {
+<<<<<<< HEAD
 if (*mult < '0' || *mult > '9')
+=======
+if (*mult < 0 || *mult > 9)
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 {
 printf("Error\n");
 exit(98);
 }
 
+<<<<<<< HEAD
 num = (*mult - '0') * digit;
 num += tens;
 *prod = (num % 10) + '0';
+=======
+num = (*mult - 0) * digit;
+num += tens;
+*prod = (num % 10) + 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 tens = num / 10;
 }
 
 if (tens)
+<<<<<<< HEAD
 *prod = (tens % 10) + '0';
+=======
+*prod = (tens % 10) + 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 }
 
 /**
@@ -152,22 +192,38 @@ final_prod++;
 while (*(next_prod + 1))
 next_prod++;
 
+<<<<<<< HEAD
 for (; *final_prod != 'x'; final_prod--)
 {
 num = (*final_prod - '0') + (*next_prod - '0');
 num += tens;
 *final_prod = (num % 10) + '0';
+=======
+for (; *final_prod != x; final_prod--)
+{
+num = (*final_prod - 0) + (*next_prod - 0);
+num += tens;
+*final_prod = (num % 10) + 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 tens = num / 10;
 
 next_prod--;
 next_len--;
 }
 
+<<<<<<< HEAD
 for (; next_len >= 0 && *next_prod != 'x'; next_len--)
 {
 num = (*next_prod - '0');
 num += tens;
 *final_prod = (num % 10) + '0';
+=======
+for (; next_len >= 0 && *next_prod != x; next_len--)
+{
+num = (*next_prod - 0);
+num += tens;
+*final_prod = (num % 10) + 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 tens = num / 10;
 
 final_prod--;
@@ -175,7 +231,11 @@ next_prod--;
 }
 
 if (tens)
+<<<<<<< HEAD
 *final_prod = (tens % 10) + '0';
+=======
+*final_prod = (tens % 10) + 0;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 }
 
 /**
@@ -198,11 +258,19 @@ printf("Error\n");
 exit(98);
 }
 
+<<<<<<< HEAD
 if (*(argv[1]) == '0')
 argv[1] = iterate_zeroes(argv[1]);
 if (*(argv[2]) == '0')
 argv[2] = iterate_zeroes(argv[2]);
 if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
+=======
+if (*(argv[1]) == 0)
+argv[1] = iterate_zeroes(argv[1]);
+if (*(argv[2]) == 0)
+argv[2] = iterate_zeroes(argv[2]);
+if (*(argv[1]) == 0 || *(argv[2]) == 0)
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 {
 printf("0\n");
 return (0);
@@ -220,10 +288,17 @@ add_nums(final_prod, next_prod, size - 1);
 }
 for (index = 0; final_prod[index]; index++)
 {
+<<<<<<< HEAD
 if (final_prod[index] != 'x')
 putchar(final_prod[index]);
 }
 putchar('\n');
+=======
+if (final_prod[index] != x)
+putchar(final_prod[index]);
+}
+putchar(n);
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 
 free(next_prod);
 free(final_prod);
