@@ -6,17 +6,14 @@
 
 # Tasks
 
-<ul>
-<li>
 <strong>0. Beauty is variable, ugliness is constant</strong>
-</li>
-
+<ul>
 <li><a href ="0-sum_them_all.c">0-sum_them_all.c</a> a function that returns the sum of all its paramters.</li>
 <li>If the parameter n == 0, the function returns 0.</li>
 
-<li>
+
 <strong>1. To be is to be the value of a variable</strong>
-</li>
+
 
 <li>
 <a href ="1-print_numbers.c:">1-print_numbers.c</a>: C function that prints numbers, followed by a new line.</li>
@@ -25,9 +22,9 @@
 </li>The paramter n is the number of integers passed to the function.</li>
 <li>If separator is NULL, it is not printed.</li>
 
-<li>
+
 <strong>2. One woman's constant is another woman's variable</strong>
-</li>
+
 
 <li>
 <a href ="2-print_strings.c">2-print_strings.c</a>: C function that prints strings, followed by a new line.</li>
@@ -40,9 +37,8 @@
 
 <li>If one of the strings is NULL, the function prints (nil) instead.</li>
 
-<li>
+
 <strong>3. To be is a to be the value of a variable</strong>
-</li>
 
 <li>
 <a href ="3-print_all.c">3-print_all.c</a>: C function that prints anything.
