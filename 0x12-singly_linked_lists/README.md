@@ -2,13 +2,12 @@
 # Header File 📁
 <ul>
 <li>
-<a href ="lists.h">lists.h</a>:Header file containing definitions and prototypes for all types and functions written for the project.
+<a href ="lists.h">lists.h</a>: Header file containing definitions and prototypes for all types and functions written for the project.</li>
+
 <table>
 <tr>
  <th>Type/File</th>
-<size_t print_list(const list_t *h);</td>
-</tr>
-<tr>yth>Definition/Prototype</th>
+<th>Definition/Prototype</th>
 </tr>
 
 <tr>
@@ -30,7 +29,7 @@ struct list_s *next
 </tr>
 
 <tr>
-<td>1-list_len.c</pp0000⁰0⁰⁰pp0pp00td>
+<td>1-list_len.c</td>
 <td>size_t list_len(const list_t *h);</td>
 </tr>
 
@@ -53,7 +52,6 @@ struct list_s *next
 
 # Tasks 📃
 
-<ul>
 <strong>
 <li>0. Print list</li>
 </strong>
@@ -61,39 +59,39 @@ struct list_s *next
 
 <a href ="0-print_list.c">0-print_list.c</a>: C function that prints all the elements of a list_t list.
 
-
 <li>If str is NULL, the function prints [0] (nil).</li>
+
 <strong>
 <li>1. List length</li>
 </strong>
 
-<a href ="1-list_len.c">1-list_len.c</a>: C function that returns the number of elements in a linked list_t list.
+<a href ="1-list_len.c">1-list_len.c"</a>: C function that returns the number of elements in a linked list_t list.
 
 <strong>
 <li>2. Add node</li>
 </strong>
 
-<a href ="2-add_node.c">2-add_node.c</a>: C function that returns the number of elements in a linked list_t list
+<a href ="2-add_node.c">2-add_node.c"</a>: C function that returns the number of elements in a linked list_t list
 <li>If the function fails - returns NULL.</li>
 <li>Otherwise - returns the address of the new element.</li>
 
 <strong>
-<li>3. Add node at the end</li
+<li>3. Add node at the end</li>
 </strong>
 
-<a href ="3-add_node_end.c>3-add_node_end.c</a>C function that adds a new node at the end of a linked list_t list.
+<a href ="3-add_node_end.c">3-add_node_end.c</a>: C function that adds a new node at the end of a linked list_t list.
 <li>If the function fails - returns NULL.</li>
 <li>Otherwise - returns the address of the new element.</li>
 
 <strong><li>4. Free list</li></strong>
 
-<a href ="4-free_list.c">4-free_list.c</a>:C function that frees a list_t list.
+<a href ="4-free_list.c">4-free_list.c</a>: C function that frees a list_t list.             
 
 <strong>
 <li>5. The Hare and the Tortoise</li>
 </strong>
 
-<a href ="100-first.c>100-first.c</a>: C function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+<a href ="100-first.c>100-first.c"</a>: C function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
 
 <strong><li>6. Real programmers can write assembly code in any language
 </li></strong>
