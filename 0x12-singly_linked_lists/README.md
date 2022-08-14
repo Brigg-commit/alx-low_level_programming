@@ -50,42 +50,54 @@ struct list_s *next
 </tr>
 
 </table>
+
 # Tasks 📃
+
+<ul>
 <strong>
 <li>0. Print list</li>
 </strong>
 
-<li>
+
 <a href ="0-print_list.c">0-print_list.c</a>: C function that prints all the elements of a list_t list.
-</li>
+
 
 <li>If str is NULL, the function prints [0] (nil).</li>
 <strong>
 <li>1. List length</li>
 </strong>
-<li>
+
 <a href ="1-list_len.c">1-list_len.c</a>: C function that returns the number of elements in a linked list_t list.
 
 <strong>
 <li>2. Add node</li>
-<li>
+</strong>
+
 <a href ="2-add_node.c">2-add_node.c</a>: C function that returns the number of elements in a linked list_t list
 <li>If the function fails - returns NULL.</li>
 <li>Otherwise - returns the address of the new element.</li>
 
-<li>3. Add node at the end</li>
-<li>
+<strong>
+<li>3. Add node at the end</li
+</strong>
+
 <a href ="3-add_node_end.c>3-add_node_end.c</a>C function that adds a new node at the end of a linked list_t list.
 <li>If the function fails - returns NULL.</li>
 <li>Otherwise - returns the address of the new element.</li>
 
-<li>4. Free list</li>
+<strong><li>4. Free list</li></strong>
+
 <a href ="4-free_list.c">4-free_list.c</a>:C function that frees a list_t list.
 
+<strong>
 <li>5. The Hare and the Tortoise</li>
-<a href ="100-first.c>100-first.c</a>: C function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
-<li>
-<strong>6. Real programmers can write assembly code in any language
 </strong>
-</li>
+
+<a href ="100-first.c>100-first.c</a>: C function that prints You're beat! and yet, you must allow,\nI bore my house upon my back!\n before the main function is executed.
+
+<strong><li>6. Real programmers can write assembly code in any language
+</li></strong>
+
 <a href ="101-hello_holberton.asm">101-hello_holberton.asm</a>: 64-but assembly program that prints Hello, Holberton followed by a new line using only the printf function witout interrupts.
+
+</ul>
