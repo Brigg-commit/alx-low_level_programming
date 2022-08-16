@@ -1,21 +1,3 @@
-
-kingswilll
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-alx-low_level_programming/0x13-more_singly_linked_lists/6-pop_listint.c
-@kingswilll
-kingswilll 0x13. C - More singly linked lists
- 1 contributor
-30 lines (22 sloc)  361 Bytes
 #include "lists.h"
 
 /**
