@@ -62,7 +62,7 @@ Otherwise - returns 1 on success.
 
 <strong><li>2. Speak gently, she can hear</li></strong>
 
-<a href ="2-append_Text_to_file.c"</a>: C function that appends text at the end of a file.
+<a href ="2-append_Text_to_file.c">2-append_text_to_file.c</a>: C function that appends text at the end of a file.
 
 The parameter filename is the name of the file.
 
@@ -79,3 +79,49 @@ If the file does not exist or the user lacks write permissions on the file - ret
 Otherwise - returns 1.
 
 
+<li>
+<strong>3. cp</strong>
+
+<a href ="3-cp.c">3-cp.c</a>:C program that copies the contents of a file to another file.
+Usage: cp file_from file_to
+
+If file_to already exists, it is truncated.
+
+The created file has the permissions rw-rw-r--.
+If the file already exists, the existing permissions are not changed.
+
+If the number of arguments is incorrect, the function prints Usage: cp file_from file_to, followed by a new line on the POSIX standard error and exits with code 97.
+
+If file_from does not exist or the user lacks read permissions on it, the function prints Error: Can't read from file NAME_OF_THE_FILE, followed by a new line and exits with code 98.
+
+<li>Where NAME_OF_THE_FILE is the first argument passed to the program.</li>
+
+If files cannot be created or if write to file_to fails, the function prints Error: Can't write to NAME_OF_THE_FILE, followed by a new line and exits with code 99.
+
+<li>Where NAME_OF_THE_FILE is the second argument passed to the program.</li>
+
+If the user cannot close a file descriptor, the function prints Error: Can't close fd FD_VALUE, followed by a new line on the POSIX standard error and exits with code 100.
+
+<li>Where FD_VALUE is the value of the file descriptor.
+</li>
+
+<li>
+<strong>4. elf</strong>
+</li>
+<a href ="100-elf_header.c">100-elf_header.c</a>: C program that displays the information contained in the ELF header at the start of an ELF file.
+Usage elf_header elf_filename
+
+Displayed information:
+<li>Magic</li>
+<li>Class</li>
+<li>Data</li>
+<li>Version</li>
+<li>OS/ABI</li>
+<li>ABI Version</li>
+<li>Type</li>
+<li>Entry point address</li>
+
+</ul>
+Format is identical to readelf -h (version 2.26.1).
+
+If an error occurs or the file is not an ELF file, the function displays a corresponding error message to stderr and exits with a status value of 98.
