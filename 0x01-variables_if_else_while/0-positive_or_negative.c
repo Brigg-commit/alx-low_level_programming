@@ -28,3 +28,10 @@ printf("%d is zero\n", n);
 }
 	return (0);
 }
+<<<<<<< HEAD
+=======
+chmod u+x 0-positive_or_negative.c
+git add .
+git commit -m "Negative or positive value"
+git push 
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98

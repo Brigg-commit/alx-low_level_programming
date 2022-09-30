@@ -18,6 +18,7 @@ typedef struct dog dog_t;
 struct dog
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	char *name;
 	float age;
 	char *owner;
@@ -26,6 +27,11 @@ char *name;
 float age;
 char *owner;
 >>>>>>> d02efbbf3bb133a97e7ec62b98f65e9ec75239c8
+=======
+char *name;
+float age;
+char *owner;
+>>>>>>> 06a7c2f6ce272f0fc3c42f2810d349f0cae33b98
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
